@@ -94,7 +94,7 @@ public class ResTest {
     MiniClient c = new MiniClient();
     c.setAddressPort(HTTP_ADDRESS, HTTP_PORT);
     try {
-      ClientResponse result = c.sendRequest("GET", mainPath + "//testEndpoint", "");
+      ClientResponse result = c.sendRequest("GET", mainPath + "//testEndpoin", "");
       assertTrue(true);  
       // Test 
       // change here
