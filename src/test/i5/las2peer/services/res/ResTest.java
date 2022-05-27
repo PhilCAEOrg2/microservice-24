@@ -95,7 +95,9 @@ public class ResTest {
     c.setAddressPort(HTTP_ADDRESS, HTTP_PORT);
     try {
       ClientResponse result = c.sendRequest("GET", mainPath + "//testEndpoint", "");
-      assertTrue(true); // change here
+      assertTrue(true);  
+      // Test 
+      // change here
       System.out.println("Result of 'testFirstTestCase': " + result.getResponse().trim());
     } catch (Exception e) {
       e.printStackTrace();
